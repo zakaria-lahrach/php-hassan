@@ -1,8 +1,9 @@
 <?php
 
 header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE');
-header('Access-Control-Allow-Headers: Content-Type, X-Auth-Token, Origin, Authorization');
+header("Access-Control-Allow-Headers: Content-Type");
+header('Access-Control-Allow-Methods: POST, GET, DELETE, PUT, PATCH, OPTIONS');
+header('Access-Control-Allow-Headers: token, Content-Type');
 
 	$databaseUsername = 'root';
 	$databasePassword = '';
